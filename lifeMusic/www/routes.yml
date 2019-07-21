@@ -1,0 +1,24 @@
+"/":
+  controller: Pages
+  action: default
+
+"/liste_des_music":
+  controller: Users
+  action: default
+
+"/ajouter_music":
+  controller: Music
+  action: add
+
+
+"/enregistrer_music":
+  controller: Music
+  action: save
+
+"/connexion":
+  controller: Music
+  action: login
+
+"/mot_de_passe_oublie":
+  controller: Music
+  action: forgetPassword
